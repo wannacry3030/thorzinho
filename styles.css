@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
 body {
   overflow: hidden;
-  font-family: "Roboto", serif;
+  font-family: "Inter", sans-serif;
   background: url(assets/fundo2.png);
 }
 
@@ -48,7 +50,7 @@ body {
   height: 100%;
   transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
   opacity: var(--opacity);
-  font-family: "Orelo-sw-db", serif;
+  font-family: "Inter", sans-serif;
 }
 .carousel-item .carousel-box:before {
   content: "";
@@ -74,7 +76,7 @@ body {
   left: 20px;
   transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
   font-size: clamp(20px, 3vw, 30px);
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 4px rgba(57, 59, 56, 0.1);
 }
 .carousel-item .num {
   position: absolute;
@@ -141,7 +143,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Orelo-sw-db", serif;
+  font-family: "Inter", sans-serif;
   pointer-events: all;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -177,7 +179,7 @@ body {
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgb(38, 138, 7);
   margin: calc(var(--size) * -0.5) 0 0 calc(var(--size) * -0.5);
   transition: transform 0.85s cubic-bezier(0, 0.02, 0, 1);
   display: none;
